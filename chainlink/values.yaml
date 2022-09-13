@@ -73,7 +73,7 @@ ingress:
   enabled: false
   className: "nginx"
   annotations: []
-  hosts:
+  hosts: []
     # - host: your_host
     #   paths:
     #     - path: /

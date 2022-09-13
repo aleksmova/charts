@@ -3,9 +3,9 @@ entries:
   chainlink:
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-13T21:12:26.644868+02:00"
+    created: "2022-09-13T21:17:34.654253+02:00"
     description: A Helm chart for Chainlink node
-    digest: 48f0ef4b05db4bef6e10446591f5357e0f522a4e3ad2c45723962632e353296e
+    digest: a203137332dff3298859bac41d57905b4a3998eff9eaa1dae6747f25784e082d
     home: https://chain.link
     keywords:
     - chainlink
@@ -23,7 +23,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2022-09-13T21:12:26.644229+02:00"
+    created: "2022-09-13T21:17:34.653336+02:00"
     description: A Helm chart for Chainlink node
     digest: 30ce49e40323b6378d88a960ce6329587c97ce19a7ed302d12e4778439f7f5d0
     home: https://chain.link
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://aleksmova.github.io/charts/chainlink-0.0.2.tgz
     version: 0.0.2
-generated: "2022-09-13T21:12:26.639413+02:00"
+generated: "2022-09-13T21:17:34.650792+02:00"
