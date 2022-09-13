@@ -48,7 +48,7 @@ config:
   # ETH_MAX_IN_FLIGHT_TRANSACTIONS: "128"
   # MIN_OUTGOING_CONFIRMATIONS: "2"
   # MINIMUM_CONTRACT_PAYMENT: "50000000000000000"
-  
+
   ### Fluxmonitor Variables ###
   # ORACLE_CONTRACT_ADDRESS: ""
   # FLAGS_CONTRACT_ADDRESS: ""
@@ -68,6 +68,20 @@ config:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+
+ingress:
+  enabled: false
+  className: "nginx"
+  annotations: []
+  hosts:
+    # - host: your_host
+    #   paths:
+    #     - path: /
+    #       pathType: Prefix
+  tls: []
+   # - secretName: tls_secret
+   #   hosts:
+   #     - your_host
 
 serviceAccount:
   # Specifies whether a service account should be created
