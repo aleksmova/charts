@@ -70,14 +70,14 @@ nameOverride: ""
 fullnameOverride: ""
 
 ingress:
-  enabled: false
+  enabled: true
   className: "nginx"
   annotations: []
-  hosts: []
-    # - host: your_host
-    #   paths:
-    #     - path: /
-    #       pathType: Prefix
+  hosts:
+    - host: your_host
+      paths:
+        - path: /
+          pathType: Prefix
   tls: []
    # - secretName: tls_secret
    #   hosts:
@@ -108,7 +108,7 @@ volumes:
 
 service:
   type: ClusterIP
-  http: 6688
+  port: 6688
 
 serviceP2P:
   type: ClusterIP #Ignores, only created if NodePort
